@@ -1,0 +1,8 @@
+numbers=[1,2,3,4]
+for items in numbers:
+    print(numbers)
+
+
+    numbers=[1,2,3,4]
+    for items in numbers:
+        print(items)
