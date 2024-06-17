@@ -9,3 +9,7 @@ print(number[0:3])
 number.pop(0)
 for items in number:
     print(items)
+
+
+    print(number)
+
