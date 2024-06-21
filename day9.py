@@ -78,6 +78,8 @@ print(emp["sal"])
 print(emp["address"]["stree"])
 print(emp["hobbies"]["hobbi"])
 
+print(emp["marks"])
+
 
     
 
