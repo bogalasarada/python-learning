@@ -232,6 +232,10 @@ class Movies:
     for i in self.listofmovies:
       if id == i["id"]:
         print(i,"acces")
+  def acess(self,name):
+    for i in self.listofmovies:
+      if name == i["name"]:
+        print(i,"aces")
 
 movies = Movies()
 movies.addname({"name":"shivam","hero":"ram"})
@@ -240,6 +244,7 @@ movies.addname({"name":"kalki","hero":"brabhas"})
 movies.removename(1)
 movies.ubdatename("khusi","khu","hero","kalyan")
 movies.accesname(2)
+movies.acess("kalki")
 
 
 
